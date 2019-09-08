@@ -1,0 +1,13 @@
+.imageStyle {
+    height : '340px';
+    border-radius : '100%';
+    border : 'solid 2px #800';
+    box-shadow : '3px 3px 20px #888888';
+    animation: zoom 1s linear infinite;
+    
+}
+
+.imageStyle:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}

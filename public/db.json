@@ -8,7 +8,7 @@
             "price" : 500,
             "qty" : 0,
             "isFreeShipping" : false,
-            "image" : "/assets/images/babySuitWithCapBlue.png"
+            "image" : "/assets/images/babySuitWithCapBlue.jpg"
         },
         {
             "id" : "prod2",
@@ -18,7 +18,7 @@
             "price" : 500,
             "qty" : 0,
             "isFreeShipping" : false,
-            "image" : "/assets/images/babySuitWithCapYellow.png"
+            "image" : "/assets/images/babySuitWithCapYellow.jpg"
         },
         {
             "id" : "prod3",
@@ -28,7 +28,7 @@
             "price" : 500,
             "qty" : 0,
             "isFreeShipping" : false,
-            "image" : "/assets/images/bathTowelGreenD1.png"
+            "image" : "/assets/images/bathTowelGreenD1.jpg"
         },
         {
             "id" : "prod4",
@@ -38,7 +38,7 @@
             "price" : 500,
             "qty" : 0,
             "isFreeShipping" : false,
-            "image" : "/assets/images/bathTowelGreenD2.png"
+            "image" : "/assets/images/bathTowelGreenD2.jpg"
         },
         {
             "id" : "prod5",
@@ -48,7 +48,7 @@
             "price" : 500,
             "qty" : 0,
             "isFreeShipping" : false,
-            "image" : "/assets/images/bathTowelPinkD1.png"
+            "image" : "/assets/images/bathTowelPinkD1.jpg"
         },
         {
             "id" : "prod6",
@@ -58,7 +58,7 @@
             "price" : 500,
             "qty" : 0,
             "isFreeShipping" : false,
-            "image" : "/assets/images/bathTowelPinkD2.png"
+            "image" : "/assets/images/bathTowelPinkD2.jpg"
         },
         {
             "id" : "prod7",
@@ -68,7 +68,7 @@
             "price" : 500,
             "qty" : 0,
             "isFreeShipping" : false,
-            "image" : "/assets/images/bathTowelPinkD3.png"
+            "image" : "/assets/images/bathTowelPinkD3.jpg"
         },
         {
             "id" : "prod8",
@@ -108,7 +108,7 @@
             "price" : 500,
             "qty" : 0,
             "isFreeShipping" : false,
-            "image" : "/assets/'image's/motherBag.jpg"
+            "image" : "/assets/images/motherBag.jpg"
         },
         {
             "id" : "prod12",
@@ -118,7 +118,7 @@
             "price" : 500,
             "qty" : 0,
             "isFreeShipping" : false,
-            "image" : "/assets/'image's/musicBedBells.jpg"
+            "image" : "/assets/images/musicBedBells.jpg"
         },
         {
             "id" : "prod13",
@@ -128,7 +128,7 @@
             "price" : 500,
             "qty" : 0,
             "isFreeShipping" : false,
-            "image" : "/assets/'image's/nextonBoxKit.jpg"
+            "image" : "/assets/images/nextonBoxKit.jpg"
         },
         {
             "id" : "prod14",
@@ -138,7 +138,7 @@
             "price" : 500,
             "qty" : 0,
             "isFreeShipping" : false,
-            "image" : "/assets/'image's/toys1.jpg"
+            "image" : "/assets/images/toys1.jpg"
         },
         {
             "id" : "prod15",
@@ -148,7 +148,7 @@
             "price" : 500,
             "qty" : 0,
             "isFreeShipping" : false,
-            "image" : "/assets/'image's/toys2.jpg"
+            "image" : "/assets/images/toys2.jpg"
         }
 
     ]
