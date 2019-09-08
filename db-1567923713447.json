@@ -1,0 +1,154 @@
+{
+  "products": [
+    {
+      "id": "prod1",
+      "title": "Baby Suit With Cap",
+      "color": "Light Blue",
+      "design": "d1",
+      "price": 500,
+      "qty": 0,
+      "isFreeShipping": false,
+      "image": "/assets/images/babySuitWithCapBlue.png"
+    },
+    {
+      "id": "prod2",
+      "title": "Baby Suit With Cap",
+      "color": "Yellow",
+      "design": "d1",
+      "price": 500,
+      "qty": 0,
+      "isFreeShipping": false,
+      "image": "/assets/images/babySuitWithCapYellow.png"
+    },
+    {
+      "id": "prod3",
+      "title": "Bath Towel",
+      "color": "Green",
+      "design": "d1",
+      "price": 500,
+      "qty": 0,
+      "isFreeShipping": false,
+      "image": "/assets/images/bathTowelGreenD1.png"
+    },
+    {
+      "id": "prod4",
+      "title": "Bath Towel",
+      "color": "Green",
+      "design": "d2",
+      "price": 500,
+      "qty": 0,
+      "isFreeShipping": false,
+      "image": "/assets/images/bathTowelGreenD2.png"
+    },
+    {
+      "id": "prod5",
+      "title": "Bath Towel",
+      "color": "Pink",
+      "design": "d1",
+      "price": 500,
+      "qty": 0,
+      "isFreeShipping": false,
+      "image": "/assets/images/bathTowelPinkD1.png"
+    },
+    {
+      "id": "prod6",
+      "title": "Bath Towel",
+      "color": "Pink",
+      "design": "d2",
+      "price": 500,
+      "qty": 0,
+      "isFreeShipping": false,
+      "image": "/assets/images/bathTowelPinkD2.png"
+    },
+    {
+      "id": "prod7",
+      "title": "Bath Towel",
+      "color": "Pink",
+      "design": "d3",
+      "price": 500,
+      "qty": 0,
+      "isFreeShipping": false,
+      "image": "/assets/images/bathTowelPinkD3.png"
+    },
+    {
+      "id": "prod8",
+      "title": "Baby Wipes",
+      "color": "",
+      "design": "",
+      "price": 500,
+      "qty": 0,
+      "isFreeShipping": false,
+      "image": "/assets/images/babyWipes.jpg"
+    },
+    {
+      "id": "prod9",
+      "title": "Johnson's Basket Kit",
+      "color": "",
+      "design": "",
+      "price": 500,
+      "qty": 0,
+      "isFreeShipping": false,
+      "image": "/assets/images/johnsonBasketKit.jpg"
+    },
+    {
+      "id": "prod10",
+      "title": "Johnson's Box Kit",
+      "color": "",
+      "design": "",
+      "price": 500,
+      "qty": 0,
+      "isFreeShipping": false,
+      "image": "/assets/images/johnson_sBoxKit.jpg"
+    },
+    {
+      "id": "prod11",
+      "title": "Mother Bag",
+      "color": "Purple",
+      "design": "",
+      "price": 500,
+      "qty": 0,
+      "isFreeShipping": false,
+      "image": "/assets/'image's/motherBag.jpg"
+    },
+    {
+      "id": "prod12",
+      "title": "Music Bed Bells",
+      "color": "Multi Color",
+      "design": "",
+      "price": 500,
+      "qty": 0,
+      "isFreeShipping": false,
+      "image": "/assets/'image's/musicBedBells.jpg"
+    },
+    {
+      "id": "prod13",
+      "title": "Nexton Box Kit",
+      "color": "",
+      "design": "",
+      "price": 500,
+      "qty": 0,
+      "isFreeShipping": false,
+      "image": "/assets/'image's/nextonBoxKit.jpg"
+    },
+    {
+      "id": "prod14",
+      "title": "Toys",
+      "color": "Multi Color",
+      "design": "d1",
+      "price": 500,
+      "qty": 0,
+      "isFreeShipping": false,
+      "image": "/assets/'image's/toys1.jpg"
+    },
+    {
+      "id": "prod15",
+      "title": "Toys",
+      "color": "Multi Color",
+      "design": "d2",
+      "price": 500,
+      "qty": 0,
+      "isFreeShipping": false,
+      "image": "/assets/'image's/toys2.jpg"
+    }
+  ]
+}
