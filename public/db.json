@@ -5,7 +5,7 @@
             "title" : "Baby Suit With Cap",
             "color" : "Light Blue",
             "design" : "d1",
-            "price" : 500,
+            "price" : 495,
             "qty" : 0,
             "isFreeShipping" : false,
             "image" : "/assets/images/babySuitWithCapBlue.jpg"
@@ -15,7 +15,7 @@
             "title" : "Baby Suit With Cap",
             "color" : "Yellow",
             "design" : "d1",
-            "price" : 500,
+            "price" : 900,
             "qty" : 0,
             "isFreeShipping" : false,
             "image" : "/assets/images/babySuitWithCapYellow.jpg"
@@ -25,7 +25,7 @@
             "title" : "Bath Towel",
             "color" : "Green",
             "design" : "d1",
-            "price" : 500,
+            "price" : 450,
             "qty" : 0,
             "isFreeShipping" : false,
             "image" : "/assets/images/bathTowelGreenD1.jpg"
@@ -35,7 +35,7 @@
             "title" : "Bath Towel",
             "color" : "Green",
             "design" : "d2",
-            "price" : 500,
+            "price" : 300,
             "qty" : 0,
             "isFreeShipping" : false,
             "image" : "/assets/images/bathTowelGreenD2.jpg"
@@ -45,7 +45,7 @@
             "title" : "Bath Towel",
             "color" : "Pink",
             "design" : "d1",
-            "price" : 500,
+            "price" : 295,
             "qty" : 0,
             "isFreeShipping" : false,
             "image" : "/assets/images/bathTowelPinkD1.jpg"
@@ -55,7 +55,7 @@
             "title" : "Bath Towel",
             "color" : "Pink",
             "design" : "d2",
-            "price" : 500,
+            "price" : 1500,
             "qty" : 0,
             "isFreeShipping" : false,
             "image" : "/assets/images/bathTowelPinkD2.jpg"
@@ -75,7 +75,7 @@
             "title" : "Baby Wipes",
             "color" : "",
             "design" : "",
-            "price" : 500,
+            "price" : 1200,
             "qty" : 0,
             "isFreeShipping" : false,
             "image" : "/assets/images/babyWipes.jpg"
@@ -85,7 +85,7 @@
             "title" : "Johnson's Basket Kit",
             "color" : "",
             "design" : "",
-            "price" : 500,
+            "price" : 1800,
             "qty" : 0,
             "isFreeShipping" : false,
             "image" : "/assets/images/johnsonBasketKit.jpg"
@@ -95,7 +95,7 @@
             "title" : "Johnson's Box Kit",
             "color" : "",
             "design" : "",
-            "price" : 500,
+            "price" : 750,
             "qty" : 0,
             "isFreeShipping" : false,
             "image" : "/assets/images/johnson_sBoxKit.jpg"
@@ -105,7 +105,7 @@
             "title" : "Mother Bag",
             "color" : "Purple",
             "design" : "",
-            "price" : 500,
+            "price" : 600,
             "qty" : 0,
             "isFreeShipping" : false,
             "image" : "/assets/images/motherBag.jpg"
@@ -115,7 +115,7 @@
             "title" : "Music Bed Bells",
             "color" : "Multi Color",
             "design" : "",
-            "price" : 500,
+            "price" : 400,
             "qty" : 0,
             "isFreeShipping" : false,
             "image" : "/assets/images/musicBedBells.jpg"
@@ -125,7 +125,7 @@
             "title" : "Nexton Box Kit",
             "color" : "",
             "design" : "",
-            "price" : 500,
+            "price" : 395,
             "qty" : 0,
             "isFreeShipping" : false,
             "image" : "/assets/images/nextonBoxKit.jpg"
@@ -135,7 +135,7 @@
             "title" : "Toys",
             "color" : "Multi Color",
             "design" : "d1",
-            "price" : 500,
+            "price" : 800,
             "qty" : 0,
             "isFreeShipping" : false,
             "image" : "/assets/images/toys1.jpg"
@@ -145,7 +145,7 @@
             "title" : "Toys",
             "color" : "Multi Color",
             "design" : "d2",
-            "price" : 500,
+            "price" : 395,
             "qty" : 0,
             "isFreeShipping" : false,
             "image" : "/assets/images/toys2.jpg"

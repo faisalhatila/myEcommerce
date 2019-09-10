@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import {connect} from 'react-redux';
-import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
+// import {connect} from 'react-redux';
+// import { makeStyles } from '@material-ui/core/styles';
+// import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -19,28 +19,28 @@ import Utils from '../../Utils'
 
 export default class ProductsList extends Component {
     render() {
-        const useStyles = makeStyles(theme => ({
-            root: {
-                display : 'flex',
-            },
-            button: {
-                margin: theme.spacing(1),
-            },
-            paper: {
-                padding: theme.spacing(2),
-                textAlign: 'center',
-                color: theme.palette.text.secondary,
-            },
-            card: {
-                maxWidth: 345,
-            },
-            media: {
-                height: 140,
-            },
-            display : {
-                display : 'inline-flex',
-            }
-          }));        
+        // const useStyles = makeStyles(theme => ({
+        //     root: {
+        //         display : 'flex',
+        //     },
+        //     button: {
+        //         margin: theme.spacing(1),
+        //     },
+        //     paper: {
+        //         padding: theme.spacing(2),
+        //         textAlign: 'center',
+        //         color: theme.palette.text.secondary,
+        //     },
+        //     card: {
+        //         maxWidth: 345,
+        //     },
+        //     media: {
+        //         height: 140,
+        //     },
+        //     display : {
+        //         display : 'inline-flex',
+        //     }
+        //   }));
         const productItems = this.props.products;
         return (
             <div>
@@ -71,7 +71,7 @@ export default class ProductsList extends Component {
                                             <Button
                                             variant="contained"
                                             color="primary"
-                                            // onClick = {(e) =>this.props.handleAddToCart(e,product)}
+                                            onClick = {(e) =>this.props.handleAddToCart(e,items)}
                                             >
                                                 <ShoppingCartIcon fontSize='small' />
                                             </Button>
