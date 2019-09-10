@@ -14,10 +14,15 @@ import {Link} from "react-router-dom";
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import Tooltip from '@material-ui/core/Tooltip';
 import Utils from '../../Utils'
+import { connect } from 'react-redux';
+import {fetchProducts} from '../../Actions/ProductActions';
 
 
 
-export default class ProductsList extends Component {
+class ProductsList extends Component {
+    componentWillMount(){
+        this.props.fetchProducts();
+    }
     render() {
         // const useStyles = makeStyles(theme => ({
         //     root: {
@@ -86,3 +91,13 @@ export default class ProductsList extends Component {
         )
     }
 }
+
+const mapStateToProps = state => ({
+    products : state.products.items
+});
+
+// const mapDispatchToProps = state => (mapStateToProps, {fetchProducts}) => {
+
+// }
+
+export default connect(mapStateToProps,{fetchProducts})(ProductsList);

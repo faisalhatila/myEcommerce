@@ -17,11 +17,6 @@ export default class Home extends Component {
     
 
     componentWillMount(){
-        fetch("http://localhost:8000/products").then(res => res.json())
-        .then(data => this.setState({
-            products : data,
-            filteredProducts : data
-        }));
         if(localStorage.getItem('cartItems')){
             this.setState({cartItems : JSON.parse(localStorage.getItem('cartItems'))});
         }
