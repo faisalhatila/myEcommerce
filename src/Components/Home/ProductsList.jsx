@@ -16,14 +16,14 @@ import Tooltip from '@material-ui/core/Tooltip';
 import Utils from '../../Utils'
 import { connect } from 'react-redux';
 import {fetchProducts} from '../../Actions/ProductActions';
-
+import {addToCart} from '../../Actions/CartAction';
 
 
 class ProductsList extends Component {
     componentWillMount(){
         this.props.fetchProducts();
     }
-    render() {
+    render() {        
         // const useStyles = makeStyles(theme => ({
         //     root: {
         //         display : 'flex',
@@ -76,7 +76,7 @@ class ProductsList extends Component {
                                             <Button
                                             variant="contained"
                                             color="primary"
-                                            onClick = {(e) =>this.props.handleAddToCart(e,items)}
+                                            onClick = {() =>this.props.addToCart(this.props.cartItems,items)}
                                             >
                                                 <ShoppingCartIcon fontSize='small' />
                                             </Button>
@@ -93,11 +93,12 @@ class ProductsList extends Component {
 }
 
 const mapStateToProps = state => ({
-    products : state.products.items
+    products : state.products.items,
+    cartItems : state.cart.items,
 });
 
 // const mapDispatchToProps = state => (mapStateToProps, {fetchProducts}) => {
 
 // }
 
-export default connect(mapStateToProps,{fetchProducts})(ProductsList);
+export default connect(mapStateToProps,{fetchProducts, addToCart})(ProductsList);

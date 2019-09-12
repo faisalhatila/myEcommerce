@@ -22,51 +22,51 @@ export default class Home extends Component {
         }
     }
 
-    handleChangeSort = (e) => {
-        this.setState({sort : e.target.value});
-        this.listProducts();
-    }
-    listProducts = () => {
-        this.setState(state => {
-            if(state.sort !== ''){
-                state.products.sort((a,b) =>(state.sort === 'lowest') ?
-                (a.price - b.price) : 
-                (b.price - a.price) )
-            }
+    // handleChangeSort = (e) => {
+    //     this.setState({sort : e.target.value});
+    //     this.listProducts();
+    // }
+    // listProducts = () => {
+    //     this.setState(state => {
+    //         if(state.sort !== ''){
+    //             state.products.sort((a,b) =>(state.sort === 'lowest') ?
+    //             (a.price - b.price) : 
+    //             (b.price - a.price) )
+    //         }
             
-            else {
-                state.products.sort((a,b) => (a.id > b.id) ? 1 : -1);
-            }
+    //         else {
+    //             state.products.sort((a,b) => (a.id > b.id) ? 1 : -1);
+    //         }
 
-            return {filteredProducts : state.products}
-        })
-    }
+    //         return {filteredProducts : state.products}
+    //     })
+    // }
 
-    handleAddToCart = (e,product) => {
-        this.setState(state => {
-            const cartItems = state.cartItems;
-            let productAlreadyInCart = false;
-            cartItems.forEach(item => {
-                if(item.id === product.id){
-                    productAlreadyInCart = true;
-                    item.count++;
-                }
-            });
-            if(!productAlreadyInCart){
-                cartItems.push({...product, count : 1});
-            }
-            localStorage.setItem('cartItems', JSON.stringify(cartItems));
-            return cartItems;
-        })
-    }
+    // handleAddToCart = (e,product) => {
+    //     this.setState(state => {
+    //         const cartItems = state.cartItems;
+    //         let productAlreadyInCart = false;
+    //         cartItems.forEach(item => {
+    //             if(item.id === product.id){
+    //                 productAlreadyInCart = true;
+    //                 item.count++;
+    //             }
+    //         });
+    //         if(!productAlreadyInCart){
+    //             cartItems.push({...product, count : 1});
+    //         }
+    //         localStorage.setItem('cartItems', JSON.stringify(cartItems));
+    //         return cartItems;
+    //     })
+    // }
 
-    handleRemoveFromCart = (e,item) => {
-        this.setState(state => {
-            const cartItems = state.cartItems.filter(elm => elm.id !== item.id);
-            localStorage.setItem('cartItems',cartItems);
-            return {cartItems};
-        })
-    }
+    // handleRemoveFromCart = (e,item) => {
+    //     this.setState(state => {
+    //         const cartItems = state.cartItems.filter(elm => elm.id !== item.id);
+    //         localStorage.setItem('cartItems',cartItems);
+    //         return {cartItems};
+    //     });
+    // }
 
     render() {
 
